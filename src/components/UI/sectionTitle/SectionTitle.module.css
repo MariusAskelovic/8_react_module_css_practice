@@ -24,3 +24,23 @@
   line-height: 1.5;
   font-weight: normal;
 }
+.light {
+  color: #22c55e;
+  background-color: #dcfce7;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 50px;
+  font-size: 12px;
+  display: inline-block;
+}
+.bigTitle {
+  color: #2a3342;
+  font-weight: 700;
+  font-size: 48px;
+}
+.bigSub {
+  color: #556987;
+  font-size: 20px;
+  font-weight: 500;
+}

@@ -7,3 +7,21 @@
 .rowSpan2 {
   grid-row: span 2;
 }
+.icon {
+  height: 56px;
+  width: 56px;
+  /* size: 56px; */
+  background-color: #22c55e;
+  border-radius: 6px;
+}
+.grid h3 {
+  margin-top: 14px;
+  color: #2a3342;
+  font-size: 24px;
+  font-weight: 700;
+}
+.grid p {
+  color: #556987;
+  font-size: 16px;
+  font-weight: 500;
+}

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import GainItem from './GainItem';
+import css from './GainList.module.css'
 
 export default function GainList() {
   const [items, setItems] = useState([])

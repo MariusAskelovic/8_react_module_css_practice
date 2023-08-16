@@ -1,10 +1,13 @@
 .wrap {
   padding-top: 90px;
   padding-bottom: 122px;
+  margin-bottom: 120px;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 100px;
+  align-items: center;
+  justify-items: center;
 }
