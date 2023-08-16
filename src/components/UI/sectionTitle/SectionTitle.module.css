@@ -2,9 +2,12 @@
   text-align: center;
   margin-bottom: 48px;
 }
+.tal {
+  text-align: left;
+}
 .pill {
-  color: var(--primary-500);
-  background-color: var(--primary-100);
+  color: #fff;
+  background-color: #22c55e;
   text-align: center;
   text-transform: uppercase;
   padding: 2px 8px;

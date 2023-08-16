@@ -1,10 +1,22 @@
 import SectionTitle from '../UI/sectionTitle/SectionTitle';
-import css from './style.module.css';
+import GainList from './GainList';
+import css from './GainMore.module.css';
 
 export default function GainMore() {
   return (
-    <section>
-      <SectionTitle />
+    <section className={css.wrap}>
+      <SectionTitle
+        left
+        pill='features'
+        title='Gain more insight into how people use your'
+        subtitle='With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.'
+      />
+
+      <div className={css.grid}>
+        <GainList />
+
+        <img src='/img/gainMore.jpg' alt='pen and paper' />
+      </div>
     </section>
   );
 }
