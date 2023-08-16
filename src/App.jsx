@@ -11,14 +11,14 @@ export default function App() {
     <Fragment>
       <div className='container'>
         <h1>Module Css</h1>
-        <Cta />
-        <GainMore />
-        <Features />
-        <Features2 />
-        <Counter />
+        {true && <Cta />}
+        {true && <GainMore />}
+        {true && <Features />}
+        {true && <Features2 />}
+        {true && <Counter />}
 
       </div>
-      <HowItWorks />
+      {true && <HowItWorks />}
     </Fragment>
   );
 }

@@ -1,9 +1,22 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  align-items: center;
+  justify-items: center;
 }
 .background {
   background-color: #2a3342;
   padding-top: 88px;
   padding-bottom: 88px;
+}
+.grid img {
+  width: 555px;
+  align-self: flex-end;
+}
+.wideContainer {
+  padding-left: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }

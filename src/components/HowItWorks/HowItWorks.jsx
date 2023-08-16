@@ -4,12 +4,12 @@ import css from './HowItWorks.module.css'
 export default function HowItWorks() {
     return (
         <div className={css.background}>
-            <div className="container">
+            <div className={css.wideContainer}>
                 <div className={css.grid}>
                     <SectionTitle
                         left
                         bigW
-                        bigSub
+                        bigSubW
                         pillLight2
                         pill='How it Works'
                         title='Gain more insight into how people use your'

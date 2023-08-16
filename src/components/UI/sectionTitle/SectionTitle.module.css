@@ -1,6 +1,6 @@
 .wrap {
   text-align: center;
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
 }
 .tal {
   text-align: left;
@@ -47,6 +47,9 @@
 .light2 {
   color: #14532d;
   background-color: #dcfce7;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 2px 8px;
 }
 .bigTitleWhite {
   color: white;

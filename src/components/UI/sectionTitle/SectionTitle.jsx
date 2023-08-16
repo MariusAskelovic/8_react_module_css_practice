@@ -29,9 +29,9 @@ function SectionTitle(props) {
 
   return (
     <div className={genClasses}>
-      <p className={pillStyle}>{props.pill}</p>
+      <p className={pillClasses}>{props.pill}</p>
       <h2 className={titleClasses}>{props.title}</h2>
-      <h3 className={bigSub}>{props.subtitle}</h3>
+      <h3 className={subtitleClasses}>{props.subtitle}</h3>
     </div>
   );
 }
