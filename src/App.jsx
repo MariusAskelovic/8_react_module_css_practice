@@ -5,7 +5,8 @@ export default function App() {
     <div className="container">
       <h1>Module Css</h1>
 
-      <Btn />
+      <Btn>Get started</Btn>
+      <Btn secondary>Learn more</Btn>
 
       <button className="btn">Simple button</button>
     </div>

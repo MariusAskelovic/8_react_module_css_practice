@@ -1,5 +1,7 @@
-import './style.css'
-export default function Btn() {
-    return <button className='btn'>Click me</button>
+import css from './style.module.css'
+export default function Btn(props) {
+    console.log('css ===', css);
+    const getClasses = props.secondary ? `${css.btn} ${css.gray}` : css.btn
+    return <button className={getClasses}> {props.children}</button >
 
 }
