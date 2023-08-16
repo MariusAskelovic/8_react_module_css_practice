@@ -15,10 +15,6 @@ label {
   font-size: 1.6rem;
 }
 
-button {
-  cursor: pointer;
-}
-
 body {
   margin: 0;
 }
@@ -81,12 +77,4 @@ textarea {
   min-height: 5rem;
   min-width: 500px;
   resize: vertical;
-}
-
-button {
-  font-size: 16px;
-  padding: 0.3em 0.8em;
-  border-radius: 4px;
-  border: 1px solid #777;
-  cursor: pointer;
 }
