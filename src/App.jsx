@@ -5,6 +5,7 @@ import Features from './components/Features/Features';
 import Features2 from './components/Features2/Features2';
 import HowItWorks from './components/HowItWorks/HowItWorks';
 import GainMore from './components/gainMoreSection/GainMore';
+import AppSection from './components/AppSection/AppSection';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
 
       </div>
       {true && <HowItWorks />}
+      {true && <AppSection />}
     </Fragment>
   );
 }
