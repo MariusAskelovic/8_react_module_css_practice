@@ -1,0 +1,9 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.background {
+  background-color: #2a3342;
+  padding-top: 88px;
+  padding-bottom: 88px;
+}

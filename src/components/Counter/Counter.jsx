@@ -7,7 +7,7 @@ export default function Counter() {
         <div className={css.flexCol}>
             <div className={css.titleSection}>
                 <SectionTitle
-                    light
+                    pillLight
                     big
                     bigSub
                     pill='NUMBERS'

@@ -9,7 +9,7 @@ export default function Features() {
             <div>
                 <SectionTitle
                     left
-                    light
+                    pillLight
                     big
                     bigSub
                     pill='features'
