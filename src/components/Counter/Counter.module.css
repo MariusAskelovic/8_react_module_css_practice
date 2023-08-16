@@ -1,0 +1,13 @@
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.titleSection {
+  max-width: 920px;
+}
+.flexData {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

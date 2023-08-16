@@ -1,7 +1,7 @@
 import Cta from './components/CTA/CTA';
+import Counter from './components/Counter/Counter';
 import Features from './components/Features/Features';
 import Features2 from './components/Features2/Features2';
-import Btn from './components/UI/btn/Btn';
 import GainMore from './components/gainMoreSection/GainMore';
 
 export default function App() {
@@ -13,6 +13,7 @@ export default function App() {
       <GainMore />
       <Features />
       <Features2 />
+      <Counter />
     </div>
   );
 }
