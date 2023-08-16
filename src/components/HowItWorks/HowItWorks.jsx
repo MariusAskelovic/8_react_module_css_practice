@@ -1,5 +1,6 @@
 import SectionTitle from "../UI/sectionTitle/SectionTitle";
 import css from './HowItWorks.module.css'
+import HowItWorksList from "./HowItWorksList";
 
 export default function HowItWorks() {
     return (
@@ -18,7 +19,7 @@ export default function HowItWorks() {
                     />
                     <img src="/img/FemaleAtDesk.png" alt="female at desk" /></div>
             </div>
-
+            <HowItWorksList />
         </div>
     )
 }
